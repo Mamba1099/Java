@@ -1,0 +1,242 @@
+# Compiled class files
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.jmod
+*.hprof
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources.local.xml
+.idea/dataSources/
+.idea/shelf/
+.idea/dictionaries/
+.idea/libraries/
+.idea/misc.xml
+.idea/vcs.xml
+.idea/modules.xml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/encodings.xml
+.idea/uiDesigner.xml
+.idea/gradle.xml
+.idea/kotlinc.xml
+.idea/sonarlint/
+.idea/runConfigurations/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+.metadata/
+.vscode/
+*.prefs
+*.launch
+.factorypath
+.springBeans
+.sts4-cache
+
+# VS Code
+.vscode/
+.vscode-test/
+*.code-workspace
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+nbactions.xml
+dist/
+nbbuild/
+nbdist/
+. nb-gradle/
+
+# Build tools
+build/
+dist/
+lib/
+dependency-reduced-pom.xml
+*.properties
+*.xml
+*.json
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+*.h2.db
+*.mv.db
+*.trace.db
+*.lck
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.tmp
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+application-local.properties
+application-dev.properties
+application-test.properties
+application-prod.properties
+
+# Secrets
+*.p12
+*.keystore
+*.jks
+*.pem
+*.key
+*.crt
+*.csr
+*.pfx
+*.p8
+*.p7b
+.secrets/
+credentials/
+*.secret
+*.token
+*.api-key
+
+# Test files
+*.test
+*.spec
+*.integration
+test-output/
+surefire-reports/
+failsafe-reports/
+target/surefire-reports/
+target/failsafe-reports/
+
+# Coverage reports
+coverage/
+htmlReport/
+jacoco/
+*.exec
+*.ec
+
+# Dependencies
+node_modules/
+vendor/
+lib/
+libs/
+!libs/README
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+*.bak
+*.backup
+
+# Spring Boot
+spring.log
+spring-shell.log
+*.pid
+*.pid.lock
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+*.dockerignore
+
+# Kubernetes
+k8s/
+helm/
+*.kubeconfig
+*.kubeconfig.*
+kubeconfig
+kubeconfig.*
+*.secret.yaml
+*.secret.yml
+
+# Terraform
+terraform/
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+*.tfvars.json
+
+# Checkstyle
+.checkstyle
+checkstyle-cachefile
+checkstyle-result.xml
+checkstyle-suppressions.xml
+
+# SonarQube
+.sonar/
+sonar-project.properties
+scanner.properties
+
+# JUnit
+*.junit
+*.junit.xml
+*.test-results
+
+# Package Manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+composer.lock
+Gemfile.lock
+poetry.lock
+Cargo.lock
+
+# Application specific
+application.properties
+application.yml
+application.yaml
+bootstrap.properties
+bootstrap.yml
+bootstrap.yaml
