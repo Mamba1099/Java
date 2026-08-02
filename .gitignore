@@ -15,7 +15,9 @@
 *.nar
 
 # Maven
-target
+/target/
+target/
+*.class
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
